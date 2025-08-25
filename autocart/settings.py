@@ -21,7 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'login',  # ✅ तुमचं custom app इथे नक्की add करा
+    'login',  # ✅ Add Your Custum app
 ]
 
 MIDDLEWARE = [
@@ -44,7 +44,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # ✅ Global templates folder configure केलं
         'DIRS': [BASE_DIR / 'templates'],
-        'APP_DIRS': True,  # App-specific templates साठी true ठेवा
+        'APP_DIRS': True,  # true App for -specific templates  
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
